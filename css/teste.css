@@ -1,0 +1,80 @@
+
+/* LOGO!!! ---------------------------------------------*/
+.lines-container {
+    position: absolute;
+    left: 40%;
+    top: 200px;
+    transform-origin: center center;
+    transition: all 3s ease-in-out, opacity 1s ease-in-out;
+    /* Combine transitions */
+    opacity: 0;
+    /* Start with 0 opacity */
+}
+
+.fade-in {
+    opacity: 1;
+    /* Make the element fully visible */
+}
+
+.line {
+    width: 200px;
+    height: 14px;
+    margin-left: 7px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(135deg);
+}
+
+.line2 {
+    margin-top: -15px;
+    margin-left: 140px;
+    width: 200px;
+    height: 14px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(45deg);
+}
+
+#chamine {
+    position: relative;
+    margin-top: -35px;
+    margin-left: 245px;
+
+}
+
+#recHo {
+    margin-top: 10px;
+
+    margin-left: -4px;
+    width: 26px;
+    height: 8px;
+    background-color: #ffffff;
+}
+
+#recVe {
+    width: 18px;
+    height: 25px;
+    background-color: #ffffff;
+}
+
+.circle {
+    position: relative;
+    margin-left: -235px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 15px solid rgb(255, 255, 255);
+    /* Creates a black circle with no fill */
+    top: 80px;
+    left: calc(50% - 25px);
+}
+
+/* FIM LOGO --------------------------*/
+
+
+
+.logo {
+    width: 50px;
+    /* Largura da logo */
+    height: 50px;
+    /* Altura da logo */
+    margin-right: 10px;
+}
